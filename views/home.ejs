@@ -1,0 +1,35 @@
+<%- include("partials/header"); -%>
+
+<%homePosts.forEach((homePost)=>{%>
+  <div class="card">
+    <div class="card-header">
+      <h1><%=homePost.title%></h1>
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p><%=homePost.content%></p>
+      </blockquote>
+    </div>
+  </div>
+<%})%>
+<hr />
+<h1>Posts</h1>
+<%posts.forEach((post)=>{%>
+  <div class="list-group">
+    <a href="#" class="list-group-item disabled" style="background-color:#F6F6F6">
+      <h3><%=post.title%></h3>
+    </a>
+    <a href="/posts/<%=post._id%>" class="list-group-item">
+      <p><%=post.content.substring(0,100)%>...</p>
+    </a>
+  </div>
+<%});%>
+</div>
+
+<div class="footer-padding"></div>
+  <div class="footer" style="top: 900px">
+    <p>Made with ❤️ by Akshat Maheshwari</p>
+  </div>
+</div>
+</body>
+</html>
