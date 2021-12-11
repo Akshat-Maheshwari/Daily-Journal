@@ -40,5 +40,5 @@ For reading full post just click on that *Card*
 ## Lessons Learned
 In the development of this website I learned 
  - Backend development using Express.js
- - Templating using EJS and partials  
+ - Templating and Partial using EJS  
  - Connecting and working with databases using MongoDB (Mongoose)
