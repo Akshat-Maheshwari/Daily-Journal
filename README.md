@@ -1,4 +1,4 @@
-# Daily-Journal ![GitHub language count](https://img.shields.io/github/languages/count/Akshat-Maheshwari/Daily-Journal)
+# Daily-Journal :clipboard: ![GitHub language count](https://img.shields.io/github/languages/count/Akshat-Maheshwari/Daily-Journal)
 The Daily Journal—it’s one of those things that can be as useless as a piece of trash, or one of the most valuable things you’ve ever owned… 
 This can be the place where you journal about your day-to-day life.
 Build on Express.js, EJS, and Mongoose.
