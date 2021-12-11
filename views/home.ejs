@@ -17,7 +17,7 @@
 <%posts.forEach((post)=>{%>
   <div class="list-group">
     <a href="#" class="list-group-item disabled" style="background-color:#F6F6F6">
-      <h3><%=post.title%></h3>
+      <h3 style="color:#3b3b3b"><%=post.title%></h3>
     </a>
     <a href="/posts/<%=post._id%>" class="list-group-item">
       <p><%=post.content.substring(0,100)%>...</p>
